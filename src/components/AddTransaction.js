@@ -12,7 +12,7 @@ export const AddTransaction = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (amount == 0) {
+    if (amount === 0) {
       toast.error("Amount should not be 0!", {
         position: "top-right",
         autoClose: 3000,
